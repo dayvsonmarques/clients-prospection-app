@@ -1,0 +1,39 @@
+@import './../../../assets/scss/mixins.scss';
+
+.content-search{
+  background-color: var(--color-blue);
+  padding: 10px;
+
+  .input-search{
+    padding: 0 20px;
+    font-family: 'Ubuntu';
+    display: block;
+    margin: 0 auto;
+    background-color: transparent;
+    border: none;
+    color: var(--c-white);
+    font-size: 18px;
+    color: var(--color-white);
+    height: 45px;
+    text-align: center;
+
+    //@include transition(all, 3s, linear);
+    @include transition-2 (all, 0.10s, ease);
+
+    @include placeholder{
+      color: var(--color-white);
+      font-weight: 700;
+    }
+
+    &:focus{
+      outline: none;
+    }
+
+    &:hover,
+    &:focus{
+      padding: 10px 20px;
+      border-bottom: 1px solid var(--color-white);
+      text-align: left;
+    }
+  }
+}

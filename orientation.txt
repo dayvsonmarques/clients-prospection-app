@@ -1,0 +1,46 @@
+# Desafio Front-End 
+
+O desafio proposta consiste em desenvolver uma aplicação que possibilita o cadastro de potenciais clientes de um novo produto.
+Requisitos funcionais
+
+Eu, como usuário:
+
+•	desejo cadastrar um cliente (nome completo, idade, cpf, telefone e e-mail). Todos os campos são obrigatórios;
+•	desejo ver a listagem dos clientes (primeiro nome, telefone, e-mail);
+•	desejo ver uma mensagem amigável quando não houver nenhum cliente cadastrado;
+•	desejo buscar por um cliente pelo Nome ou CPF;
+•	desejo ver os detalhes desse usuário que foi buscado (nome completo, idade, cpf, telefone e e-mail);
+•	desejo poder alterar os dados do cliente;
+•	desejo poder apagar um cliente (confirmando o cpf do mesmo);
+
+Requisitios técnicos:
+•	Responsividade (resolucão mínima de 460x)
+•	Consumir e Persistir os dados localmente
+•	Desenvolver testes unitários
+•	Uso de rotas
+•	Validacão de formulário com tratamento de erro
+•	Suporte IE11+, Chrome, Safari, Firefox.
+Protótipos
+•	https://invis.io/ZHOWIU5QB2W
+•	https://invis.io/NYOWIW0QBRE
+•	https://invis.io/VQOWI9OABFD
+•	https://invis.io/QZOWI9ZGBFC
+•	https://invis.io/GVOWIA0BDMP
+Stack
+•	Utilizar um framework SPA de sua escolha, mas recomendamos React.js, Angular ou Vue.js.
+•	Utilizar um framework CSS de sua escolha, como bootstrap ou Materialize.
+•	Utilizar automatizador de tarefas de sua escolha, como Gulp, Grunt ou Webpack.
+Critérios de Avaliação
+•	Organização do projeto: Avalia a estrutura do projeto, documentação e uso de controle de versão;
+•	Inovação tecnológica: Avalia o uso de tecnologias mais recentes, desde que estáveis;
+•	Coerência: Avalia se os requisitos funcionais e visuais dos protótipos foram atendidos;
+•	Boas práticas: Avalia se o projeto segue boas práticas de desenvolvimento, incluindo segurança e otimização;
+•	Controle de Qualidade: Avalia se o projeto possui qualidade assegurada por testes automatizados (por exemplo Jasmine) e integração contínua (por exemplo Travis).
+Processo de submissão
+O desafio deve ser entregue pelo GitHub.
+As URLs deve ser enviada por email!
+________________________________________
+Bônus: Hospedar a aplicação (Heroku, Firebase, Plunker, etc).
+________________________________________
+
+#############################################################################

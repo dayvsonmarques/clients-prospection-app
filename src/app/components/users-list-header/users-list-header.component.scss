@@ -1,0 +1,30 @@
+//@import './../../../assets/scss/mixins.scss'; 
+@import './../../../styles.scss';
+
+.content-users{
+  margin-top: 50px;
+}
+
+.btn-blue{
+  border-radius: 50%;
+  background-color: var(--color-blue);
+  padding: 5px 15px;
+  @include transition-args(ease-in-out .3s background-color);
+
+  -webkit-box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.75);
+  
+  .icon{
+    color: var(--color-white);
+    font-size: 10px;
+    position: relative;
+    top: -2px;
+    font-size: 40px;
+    line-height: 35px;
+  }
+
+  &:hover{
+    opacity: 0.7;
+  }
+} 
