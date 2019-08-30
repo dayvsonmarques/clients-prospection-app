@@ -8,6 +8,9 @@ import { UsersFormComponent } from './components/users-form/users-form.component
 import { UsersSearchComponent } from './components/users-search/users-search.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { UsersListHeaderComponent } from './components/users-list-header/users-list-header.component';
+
+//import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,8 @@ import { FooterComponent } from './components/footer/footer.component';
     UsersFormComponent,
     UsersSearchComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    UsersListHeaderComponent
   ],
   imports: [
     BrowserModule,
